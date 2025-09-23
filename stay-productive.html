@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Stay Productive - Daily Tracker</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="laptop-screen">
+    <header class="bg-success text-white text-center py-3 rounded">
+      <h1>Daily Activity Tracker</h1>
+    </header>
+
+    <main class="container my-4">
+      <button class="btn btn-secondary mb-3" onclick="location.href='index.html'">← Back to Home</button>
+
+      <div class="input-group mb-3">
+        <input type="text" class="form-control add-input" placeholder="Enter your activity">
+        <button class="btn btn-primary add-btn">Add</button>
+      </div>
+
+      <ul id="activityList" class="list-group"></ul>
+    </main>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>

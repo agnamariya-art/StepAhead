@@ -1,0 +1,31 @@
+body {
+  background: #f8f9fa;
+  font-family: Arial, sans-serif;
+}
+
+.laptop-screen {
+  max-width: 1400px;   /* laptop-like width */
+  margin: 30px auto;
+  background: #fff;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0px 6px 15px rgba(0,0,0,0.15);
+}
+
+.card-custom {
+  transition: transform 0.2s ease-in-out;
+  cursor: pointer;
+}
+
+.card-custom:hover {
+  transform: scale(1.05);
+}
+
+.completed {
+  text-decoration: line-through;
+  color: gray;
+}
+.completed {
+  text-decoration: line-through;
+  color: gray;
+}
